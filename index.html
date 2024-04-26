@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Dropdown search bar | helpme_coder</title>
+  </head>
+  <body>
+    <div class="search-bar">
+        <div class="dropdown">
+            <div id="drop-text" class="dropdown-text">
+                <span id="span">Everything</span>
+                <i id="icon" class="fa-solid fa-chevron-down"></i>
+            </div>
+            <ul id="list" class="dropdown-list">
+                <li class="dropdown-list-item">Everything</li>
+                <li class="dropdown-list-item">Software development</li>
+                <li class="dropdown-list-item">Web development</li>
+                <li class="dropdown-list-item">Data Analyst</li>
+                <li class="dropdown-list-item">IT Consultent</li>
+                <li class="dropdown-list-item">Network administrator</li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search Anything">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
